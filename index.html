@@ -2,8 +2,92 @@
 <html>
     <head>
         <title>MY FIRST ACTIVITY</title>
-    </head>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Tangerine:wght@300;400&display=swap");
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: greenyellow;
+            }
+            .container1 {
+                display: grid;
+                place-items: center;
+                margin-bottom: 12px;
+                font-family: 'Courier New', Courier, monospace;
+                border-color: grey;
+                color: black;
+                background-color: lavender;
+                font-size: 24px;
+            }
+    
+    
+            .portfolio-container {
+                display: grid;
+                place-items: center;
+            }
+    
+            .portfolio-container img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+    
+            .portfolio-container .name {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+            .paragraph{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: green;
+            }
+        </style>
+        
+        </head>
+        
     <body>
+        <div class="container1">PORTFOLIO</div>
+    
+        
+    
+        <div class="container">
+            <div class="portfolio-container">
+                <img src="Jomel.jpg"
+                    alt="userimg">
+                <div class="name">Jomel Cabojoc Dacutanan</div>
+                <div class="details">
+                    <ul style="list-style-type:square;">
+                        <li>Age: 25</li>
+                        <li>Gender: Male</li>
+                        <li>School: EVSU-CC</li>
+                        <li>Course: Bachelor of Science in Information Technology</li>
+                        <li>Addess: Brgy. Amahit Barugo, leyte</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <center>
+            <p class="paragaraph">BALL IS LIFE</p>
+        </center>
+            
+        </div>
+        <div class="container">
+
+            <div class="gallery-container" style="display: grid; grid-template-columns: repeat(3, 250px); grid-gap: 20px; width: fit-content; margin: 100px auto;">
+                <img style="width: 100%; height: 250px" src="phot01.JPG" alt="">
+                <img style="width: 100%; height: 250px" src="photo2.jpeg" alt="">
+                <img style="width: 100%; height: 250px" src="phot01.JPG" alt="">
+                <img style="width: 100%; height: 250px" src="photo2.jpeg" alt="">
+                <img style="width: 100%; height: 250px" src="phot01.JPG" alt="">
+                <img style="width: 100%; height: 250px" src="photo2.jpeg" alt="">
+                <img style="width: 100%; height: 250px" src="phot01.JPG" alt="">
+                <img style="width: 100%; height: 250px" src="photo2.jpeg" alt="">
+                <img style="width: 100%; height: 250px" src="phot01.JPG" alt="">
+                
+               
+                
+            </div>
+            </div>
+
 
     </body>
 </html>
